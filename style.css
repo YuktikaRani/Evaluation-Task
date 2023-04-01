@@ -800,7 +800,7 @@ form button{
         float: right;
         padding-right: 20pt;
         margin-top: -40pt;
-        padding-left: 10pt !important;
+        padding-left: 15pt !important;
         transform: scale(1.2);
         margin-right:2%;
         margin-left: 4pt;
@@ -828,7 +828,7 @@ form button{
         margin-top: 5pt;
     }
     .search{
-     padding-left: 24pt;
+     padding-left: 28pt;
      padding-top: 5pt;
      WIDTH:34%;
     }
@@ -838,7 +838,7 @@ form button{
         transition: 1s linear;
     }
     .search i{
-        margin-left: -20pt;
+      display: none;
     }
     input[type=text]{
         height:18pt;
