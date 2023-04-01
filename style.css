@@ -803,7 +803,7 @@ form button{
         padding-left: 25pt !important;
         transform: scale(1.2);
         margin-right:2%;
-        margin-left: 4pt;
+        margin-left: 14pt !important;
     }
     input[type=checkbox]{
        margin-top: -40pt !important;
@@ -827,8 +827,8 @@ form button{
         height:20pt;
         margin-top: 5pt;
     }
-    .search{
-     padding-left: 28pt;
+    nav .search{
+     padding-left: 25pt;
      padding-top: 5pt;
      WIDTH:30% !important;
      transform: none;
@@ -838,7 +838,7 @@ form button{
         background-color:#222b3c;
         transition: 1s linear;
     }
-    .search i{
+    nav .search i{
       display: none;
     }
     input[type=text]{
