@@ -955,14 +955,6 @@ form button{
     .sixth-section input::placeholder{
       transform: scale(1.1,1.1);
     }
-
-    .fifth-section{
-        padding-bottom: 20%;
-    }
-    .fifth-section .container{
-        padding-bottom: 200pt !important;
-        height:100vh !important;
-    }
     .fifth-section .header{
         width:50%;
     }
@@ -1071,17 +1063,11 @@ form button{
         background-size: 100% 100%;
         background-position: bottom;
     }
-    nav .search{
-        display: none !important;
-    }
     .nav-logo{
        padding-left: 40pt;
     }
     nav{
         width:100% !important;
-    }
-    .profile-card .card p{
-        font-size: 14px;
     }
     .sixth-section input{
         padding-left:5pt !important;
@@ -1102,4 +1088,22 @@ form button{
         padding-top: 60px !important;
     }
    
+}
+@media only screen and (max-width:280px){
+    .search{
+        display: none !important;
+    }
+    body{
+        width: 108% !important;
+    }
+    .nav-logo{
+       width:100% !important;
+    }
+    .main{
+        width: 100%;
+    }
+    .first-section{
+        width:100% !important;
+        margin: auto;
+    }
 }
