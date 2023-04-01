@@ -1000,6 +1000,9 @@ form button{
     .second-content:nth-of-type(1) p{
         line-height: 34px;
       }
+      .fifth-section-content p{
+        font-size: 14px;
+    }
 }
 @media only screen 
   and (min-device-width: 768px)
@@ -1132,4 +1135,7 @@ form button{
       .second-content:nth-of-type(1) p{
         line-height: 34px;
       }
+      .fifth-section-content p{
+        font-size: 14px;
+    }
 }
