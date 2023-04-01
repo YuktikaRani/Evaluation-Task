@@ -304,7 +304,7 @@ button:hover{
 }
 .second-content:nth-of-type(1){
     color:#060707;
-    line-height: 20px;
+    line-height: 25px;
 }
 .second-content:nth-of-type(2) p{
     color:#727272;
@@ -997,6 +997,9 @@ form button{
     .key{
         display: none !important;
     }
+    .second-content:nth-of-type(1) p{
+        line-height: 36px;
+      }
 }
 @media only screen 
   and (min-device-width: 768px)
@@ -1099,7 +1102,9 @@ form button{
     .second-content:nth-of-type(1) h1{
         line-height: 45px;    
       }
-   
+      .second-content:nth-of-type(1) p{
+        line-height: 36px;
+      }
 }
 @media only screen and (max-width:280px){
     .search{
@@ -1123,5 +1128,8 @@ form button{
       }
       .fifth-section-content .card p{
         font-size: 13px;
+      }
+      .second-content:nth-of-type(1) p{
+        line-height: 36px;
       }
 }
