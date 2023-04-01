@@ -164,8 +164,14 @@ label,input[type=checkbox]{
     padding-left: 13%;
     font-family: 'Poppins';
 }
+.auto div{
+    position: absolute;
+    margin-top: 32pt;
+    width:7px;
+    height:92px;
+    background-color: #10e677;
+}
 .auto h1{
-    border-left:6px solid #10e677;
     line-height: 54px;
     font-size: 38px;
     color:#ffffff;
@@ -175,7 +181,6 @@ label,input[type=checkbox]{
 }
 nav a:hover{
     text-shadow: 2px 2px green;
-    transform: scale(2,2);
     font-weight: bold;
 }
 .main input:hover{
@@ -200,7 +205,9 @@ button:hover{
 .services{
     margin-left: 2% !important;
 }
-
+.auto h1{
+ padding-left: 10pt !important;
+}
 .service-card{
     display: flex;
     flex-direction: column;
@@ -261,7 +268,7 @@ button:hover{
     margin-left: 890pt;
     margin-top: -180pt;
     background-color:#222b3c;
-    padding: 7pt 10pt 7pt 10pt;
+    padding: 8pt 11pt 8pt 11pt;
     border-radius: 50%;
 }
 .backkey img{
@@ -269,7 +276,7 @@ button:hover{
     margin-left: 890pt;
     margin-top: -220pt;
     background-color:#10e677;
-    padding: 7pt 10pt 7pt 10pt;
+    padding: 8pt 11pt 8pt 11pt;
     border-radius: 50%;
 }
 .backkey img:hover,.nextkey img:hover,.date img:hover{
@@ -311,6 +318,9 @@ button:hover{
 }
 .second-section p{
     padding:20pt;
+}
+.second-section h1{
+    font-weight: 400;
 }
 .second-icon{
     display: flex;
@@ -410,6 +420,9 @@ button:hover{
     padding-top: 5%;
     font-family: 'Lato';
 }
+.fourth-section h1{
+    font-weight: 400;
+}
 .fourth-card-section{
     padding-top: 5%;
    display: flex;
@@ -432,6 +445,7 @@ button:hover{
     float: left;
     width:31%;
     text-align: center;
+    padding-bottom: 20pt;
     background-color:#f7f6f6;
     box-shadow: 1px 1px 3px 1px rgb(225, 225, 225);
     transition: 1500ms;
@@ -453,6 +467,7 @@ button:hover{
     color: white !important;
 }
 .card h5{
+    font-weight: 700 !important;
     padding-top: 40px !important;
 }
 .circle,.circle-white{
@@ -584,6 +599,9 @@ button:hover{
 .sixth-section form{
     padding:20pt;
 }
+.sixth-section h1{
+    font-weight: 400;
+}
 .sixth-section input:hover{
     border-top: none !important ;
     border-left: none !important;
@@ -605,14 +623,16 @@ form input{
 }
 form button{
     margin-top:20pt;
-    background-color: rgb(247, 109, 58);
+    background-color:#f97218;
     color: white;
-    border-radius: 20px;
+    border-radius: 22px;
     border:none;
-    width:80pt;
+    width:100pt;
+    height:32pt;
     padding: 8pt;
 }
 .seventh-section{
+    margin-top: 30pt;
     font-family: 'Lato';
     background-color: #222b3c;
 }
@@ -730,9 +750,6 @@ form button{
 .service-card:hover{
     transform: scale(1.1,1.1);
 }
-.auto h1:hover{
-    transform: scale(1.1,1.1);
-}
 .second-section h1:hover,.fourth-header h1:hover,.sixth-section h1:hover,.fifth-header h1:hover,.denso-header h1:hover,.third-section h1:hover{
     text-shadow: 1px 1px 2px green;
     transform: scale(1.1,1.1);
@@ -786,7 +803,7 @@ form button{
         padding-left: 10pt !important;
         transform: scale(1.2);
         margin-right:2%;
-        
+        margin-left: 4pt;
     }
     input[type=checkbox]{
        margin-top: -40pt !important;
@@ -811,9 +828,9 @@ form button{
         margin-top: 8pt;
     }
     .search{
-     padding-left: 28pt;
+     padding-left: 24pt;
      padding-top: 5pt;
-     WIDTH:30%;
+     WIDTH:34%;
     }
     #toggler:checked~ .nav-links{
         max-height: 100% !important;
@@ -846,7 +863,6 @@ form button{
        margin: auto;
        font-size:23px;
        justify-content: center;
-       margin-left: -10pt;
     }
     .auto p{
         width:250px;
