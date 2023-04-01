@@ -806,7 +806,7 @@ form button{
       padding-bottom: 15pt;
     }
     .second-content:nth-of-type(1) h1{
-      line-height: 36px;    
+      line-height: 45px;    
     }
     .nav-links ul li:first-child{
         background-color: #222b3c !important;
@@ -1097,7 +1097,7 @@ form button{
         padding-top: 60px !important;
     }
     .second-content:nth-of-type(1) h1{
-        line-height: 36px;    
+        line-height: 45px;    
       }
    
 }
@@ -1119,7 +1119,7 @@ form button{
         margin: auto;
     }
     .second-content:nth-of-type(1) h1{
-        line-height: 36px;    
+        line-height: 43px;    
       }
       .fifth-section-content .card p{
         font-size: 13px;
