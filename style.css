@@ -998,7 +998,7 @@ form button{
         display: none !important;
     }
     .second-content:nth-of-type(1) p{
-        line-height: 30px;
+        line-height: 34px;
       }
 }
 @media only screen 
@@ -1103,7 +1103,7 @@ form button{
         line-height: 45px;    
       }
       .second-content:nth-of-type(1) p{
-        line-height:30px;
+        line-height:34px;
       }
 }
 @media only screen and (max-width:280px){
@@ -1130,6 +1130,6 @@ form button{
         font-size: 13px;
       }
       .second-content:nth-of-type(1) p{
-        line-height: 30px;
+        line-height: 34px;
       }
 }
