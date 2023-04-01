@@ -830,7 +830,7 @@ form button{
     .search{
      padding-left: 28pt;
      padding-top: 5pt;
-     WIDTH:34%;
+     WIDTH:32%;
     }
     #toggler:checked~ .nav-links{
         max-height: 100% !important;
