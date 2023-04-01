@@ -798,12 +798,12 @@ form button{
     label,input[type=checkbox]{
         display: block;
         float: right;
-        padding-right: 20pt;
+        padding-right: 14pt;
         margin-top: -40pt;
         padding-left: 25pt !important;
         transform: scale(1.2);
         margin-right:2%;
-        margin-left: 22pt !important;
+        margin-left: 10pt !important;
     }
     input[type=checkbox]{
        margin-top: -40pt !important;
@@ -828,9 +828,9 @@ form button{
         margin-top: 5pt;
     }
     nav .search{
-     padding-left: 25pt;
+     padding-left: 30pt;
      padding-top: 5pt;
-     WIDTH:30% !important;
+     WIDTH:28% !important;
      transform: none;
     }
     #toggler:checked~ .nav-links{
@@ -846,6 +846,9 @@ form button{
     }
     label{
         display: block;;
+    }
+    .first-section{
+        width:100% !important;
     }
     .services{
         width:100%;
