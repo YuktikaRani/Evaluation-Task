@@ -831,6 +831,7 @@ form button{
      padding-left: 28pt;
      padding-top: 5pt;
      WIDTH:30% !important;
+     transform: none;
     }
     #toggler:checked~ .nav-links{
         max-height: 100% !important;
@@ -1009,10 +1010,10 @@ form button{
         display: none;
     }
     nav .search{
-        margin-left:200px;
+        margin-left:180px;
     }
     nav .search input{
-       transform: scale(1.2,1);
+       transform: scale(1.1,1);
     }
   }
 @media only screen and (max-width:370px){
@@ -1024,7 +1025,7 @@ form button{
         background-position: bottom;
     }
     nav .search{
-        display: none;
+        display: none !important;
     }
     .nav-logo{
        padding-left: 40pt;
