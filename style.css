@@ -19,11 +19,12 @@ nav{
     display: flex;
     width: 100%;
     gap:1em;
-    padding-top:20pt;
+    padding-top:24pt;
     padding-left: 14%;
     font-weight: 400;
     padding-bottom: 18pt;
-    background-color: rgba(16,230,119,0.859);
+    background-image:linear-gradient(180deg,#3bb777 0%,#10e677 100%);
+    opacity: 0.859;
 }
 .logo img{
     width:36px;
@@ -94,7 +95,7 @@ nav span{
     color:#fffefe;
 }
 .nav-links ul li:first-child a{
-    background-color: rgba(16,230,119,0.859);
+    background-image:linear-gradient(180deg,#3bb777 0%,#10e677 100%);
     padding: 13pt 9pt 12pt 9pt;
 }
 .logo span{
@@ -353,17 +354,24 @@ button:hover{
 .second-btn{
     padding-bottom: 20pt;
 }
-.second-btn button,.fourth-section button{
+.second-btn button,.fourth-section button,.transport button{
     background-color: #222b3c ;
     border:none;
     text-align: center;
-    width:80pt;
+    width:90pt;
     height:25pt;
     align-items: center;
     padding-left: 15pt;
     color:white;
     margin: auto;
     display: flex;
+}
+.transport button{
+    float: left;
+    margin: 10pt auto auto 70pt;
+    width:100pt !important;
+    padding-left: 22pt !important;
+    height: 30pt;
 }
 .fourth-section button:hover{
     transform: scale(1.1,1.1);
@@ -510,7 +518,7 @@ button:hover{
 .fifth-section .container{
     background-color: rgba(16,230,119,0.810);
     background-size: 100%;
-    padding-bottom: 60pt;
+    padding-bottom: 64pt;
 }
 .message{
     padding-top: 20pt;
@@ -539,7 +547,8 @@ button:hover{
     align-items: center;
     gap:2em;
     padding-top: 7%;
-    margin: auto;
+    padding-left: 20pt;
+    margin: auto !important;
 }
 .fifth-section-content .profile-card:hover{
     transform: scale(1.1,1.1);
@@ -565,11 +574,12 @@ button:hover{
  font-family: 'Lato';
  line-height: 27px;
  font-weight: 400;
- font-size: 15px;
+ font-size: 14px;
 }
 .profile-card{
     width:46%;
-    height:46%;
+    height:45%;
+    padding: 2% 1% 2% 1%;
     margin-bottom: 30pt;
     background-color: #ffffff;
 }
@@ -708,7 +718,7 @@ form button{
     font-family:"Poppins";
 }
 .information ,.helpful-links,.supported{
-    width:28%;
+    width:26%;
     padding: 4%;
     line-height: 30px;
     color:#ffffff;
@@ -718,6 +728,7 @@ form button{
     font-size: 14px;
     line-height: 30px;
     font-family: "Lato";
+    word-wrap:break-word;
 }
 .footer-icon{
     padding-top: 10pt;
@@ -725,21 +736,22 @@ form button{
 .footer-icon img:hover{
     transform: scale(1.1,1.1);
 }
+.information{
+    border-left:1px solid #e6eae8;
+}
 .information-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3%;
-    margin-left: -25px;
-    border-left:1px solid #e6eae8;
-}
-.information-content{
     width:50%;
+    margin-left: -7%;
 }
+
 .denso-content:nth-of-type(1){
    width:50%;
-   padding-left: 8%;
-   padding-right: 5%;
+   padding-left: 9%;
+   padding-right: 4%;
 }
 .copyright{
     margin: auto;
@@ -885,6 +897,9 @@ form button{
         display: block;
         margin: auto;
     }
+    .third-section .transport button{
+       display: none;
+    }
     .transport-img,.transport{
         width:100%;
         display:block;
@@ -990,6 +1005,9 @@ form button{
         background-size: 100% 100%;
         background-position: bottom;
     }
+    label,input[type=checkbox]{
+        margin-right:2%;
+    }
     .key{
         display: none !important;
     }
@@ -1013,16 +1031,42 @@ form button{
         display: none;
     }
     nav .search{
-        margin-left:180px;
+        margin-left:200px;
+        width:100%;
+        float: right !important;
     }
     nav .search input{
        transform: scale(1.1,1);
     }
-  }
-@media only screen and (max-width:370px){
-    body{
-        width:100%;
+    .seventh-section .header{
+        gap:1em;
+        margin: auto;
     }
+    .information ,.helpful-links,.supported{
+        width:30%;
+    }
+    .fourth-card-section .card{
+        width:80%;
+        gap:1em;
+        margin: auto;
+    }
+    .circle,.circle-white{
+       display: none;
+    }
+    .service-card{
+        width: 80%;
+    }
+    .third-section {
+        height: 50vh;
+    }
+  }
+@media only screen and (max-width:400px){
+    body{
+        width:100% !important;
+    }
+    .circle,.circle-white{
+        display: none;
+     }
     .main{
         background-size: 100% 100%;
         background-position: bottom;
@@ -1034,7 +1078,7 @@ form button{
        padding-left: 40pt;
     }
     nav{
-        width:100%;
+        width:100% !important;
     }
     .profile-card .card p{
         font-size: 14px;
@@ -1042,4 +1086,20 @@ form button{
     .sixth-section input{
         padding-left:5pt !important;
     }
+    .service-card p,.service-card h2{
+        font-size: 11px;
+    }
+    .first-section{
+        width: 100% !important;
+    }
+    .fourth-section{
+        padding-top: 260px !important;
+    }
+    .fifth-section-content p{
+        font-size: 12px;
+    }
+    .sixth-section{
+        padding-top: 60px !important;
+    }
+   
 }
