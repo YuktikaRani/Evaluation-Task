@@ -295,7 +295,7 @@ button:hover{
     width:40px !important;
 }
 .second-content{
-    width:70% !important;
+    width:74% !important;
     margin:auto;
     padding: 20pt;
     font-weight: 400;
@@ -304,14 +304,20 @@ button:hover{
 }
 .second-content:nth-of-type(1){
     color:#060707;
-    line-height: 30px;
+    line-height: 20px;
 }
 .second-content:nth-of-type(2) p{
     color:#727272;
+    line-height: 30px;
+    font-size: 15px;
+}
+.second-content:nth-of-type(1) h1{
+padding-bottom: 6px;
 }
 .denso{
     width:20pt;
     height:5pt;
+    margin-top: 4px !important;
     background-color: #10e677;
     margin: auto;
     border: none;
