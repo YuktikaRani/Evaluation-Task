@@ -366,10 +366,10 @@ padding-bottom: 6px;
     background-color: #222b3c ;
     border:none;
     text-align: center;
-    width:90pt;
-    height:25pt;
+    width:100pt;
+    height:30pt;
     align-items: center;
-    padding-left: 15pt;
+    padding-left: 20pt;
     color:white;
     margin: auto;
     display: flex;
@@ -401,7 +401,7 @@ padding-bottom: 6px;
     float: left;
 }
 .transport{
-    padding-left: 2%;
+    padding-left: 1%;
 }
 .transport-img img{
     width:100%;
@@ -421,7 +421,7 @@ padding-bottom: 6px;
 }
 .transport p{
     font-weight: 400;
-    font-size: 10pt;
+    font-size:13px;
     padding-top: 4%;
     color:#727272;
     line-height: 28px;
