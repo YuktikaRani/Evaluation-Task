@@ -1119,9 +1119,6 @@ form button{
       .second-content:nth-of-type(1) p{
         line-height:34px;
       }
-      .seventh-section .header{
-        display: none;
-       }
 }
 @media only screen and (max-width:280px){
     .search{
@@ -1152,7 +1149,4 @@ form button{
       .fifth-section-content p{
         font-size: 14px;
     }
-       .seventh-section .header{
-        display: none;
-       }
 }
