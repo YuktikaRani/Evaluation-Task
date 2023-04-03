@@ -962,6 +962,9 @@ form button{
         width:100%;
         margin: auto;
     }
+    .fifth-section-content .profile-card{
+        margin-left: -5%;
+    }
     .sixth-section form{
        width:100%;
        margin: auto;
