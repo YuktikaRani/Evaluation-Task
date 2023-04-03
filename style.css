@@ -494,10 +494,12 @@ padding-bottom: 6px;
     position: absolute;
     background-color: #10e677;
     border-radius: 50%;
-    width:50px !important;
+    width:54px !important;
     text-align: center;
     font-size: 12px;
-    padding-top: 8pt;
+    padding-top:6pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
     margin-top: -20px !important;
     height:50px !important;
     margin-left: 130PX !important;
@@ -874,7 +876,7 @@ form button{
         height:18pt;
     }
     label{
-        display: block;;
+        display: block;
     }
     .first-section{
         width:100% !important;
@@ -1117,6 +1119,9 @@ form button{
       .second-content:nth-of-type(1) p{
         line-height:34px;
       }
+      .seventh-section{
+        display: none;
+       }
 }
 @media only screen and (max-width:280px){
     .search{
@@ -1147,4 +1152,7 @@ form button{
       .fifth-section-content p{
         font-size: 14px;
     }
+       .seventh-section{
+        display: none;
+       }
 }
