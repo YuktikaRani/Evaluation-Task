@@ -421,7 +421,7 @@ padding-bottom: 6px;
 }
 .transport p{
     font-weight: 400;
-    font-size:13px;
+    font-size:14px;
     padding-top: 4%;
     color:#727272;
     line-height: 28px;
@@ -1119,7 +1119,7 @@ form button{
       .second-content:nth-of-type(1) p{
         line-height:34px;
       }
-      .seventh-section{
+      .seventh-section .header{
         display: none;
        }
 }
@@ -1152,7 +1152,7 @@ form button{
       .fifth-section-content p{
         font-size: 14px;
     }
-       .seventh-section{
+       .seventh-section .header{
         display: none;
        }
 }
